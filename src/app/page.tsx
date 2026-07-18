@@ -16,7 +16,7 @@ export default function Home() {
       />
 
       {/* Content overlay */}
-      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white px-6">
+      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white px-6 -mt-20">
         <div className="max-w-2xl w-full space-y-8 text-center">
           {/* Main heading */}
           <div className="space-y-4">
@@ -24,7 +24,7 @@ export default function Home() {
               hi, i'm @ulacoder
             </h1>
             <p className="text-xl md:text-2xl text-gray-300">
-              Software & Hardware Engineer
+              Software &amp; Hardware Engineer
             </p>
           </div>
 
