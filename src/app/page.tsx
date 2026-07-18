@@ -20,8 +20,8 @@ export default function Home() {
         <div className="max-w-2xl w-full space-y-8 text-center">
           {/* Main heading */}
           <div className="space-y-4">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-900 bg-clip-text text-transparent">
-              hi, i'm <span className="font-['Courier_New',monospace] font-bold">@</span>ulacoder
+            <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-900 bg-clip-text text-transparent">
+              hi, i'm <span className="font-['Roboto_Mono',monospace] font-bold">@</span>ulacoder
             </h1>
             <p className="text-xl md:text-2xl text-gray-200">
               Software &amp; Hardware Engineer
