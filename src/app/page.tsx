@@ -31,7 +31,7 @@ export default function Home() {
           <div className="pt-6">
             <a
               href="/resume.pdf"
-              className="text-xl font-semibold text-white hover:text-gray-300 transition-colors underline underline-offset-4"
+              className="font-['Geist',sans-serif] font-semibold text-xl text-white hover:text-gray-300 transition-colors underline underline-offset-4"
             >
               Resume
             </a>
@@ -39,7 +39,7 @@ export default function Home() {
 
           {/* Contact section */}
           <div className="pt-8 space-y-4">
-            <h2 className="text-xl font-bold text-white">Contact Me</h2>
+            <h2 className="font-['Geist',sans-serif] font-semibold text-xl text-white">Contact Me</h2>
             <div className="flex items-center justify-center gap-2 text-white text-lg font-semibold">
               <a
                 href="https://t.me/anntts"
