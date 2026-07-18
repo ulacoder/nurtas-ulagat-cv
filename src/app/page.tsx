@@ -2,7 +2,8 @@
 
 import React from "react";
 import NeuralBackground from "@/components/ui/flow-field-background";
-import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { Mail, FileText } from "lucide-react";
 
 export default function Home() {
   return (
@@ -61,7 +62,7 @@ export default function Home() {
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
               aria-label="GitHub"
             >
-              <Github className="h-6 w-6" />
+              <GitHubLogoIcon className="h-6 w-6" />
             </a>
             <a
               href="https://linkedin.com/in/yourprofile"
@@ -70,7 +71,7 @@ export default function Home() {
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
               aria-label="LinkedIn"
             >
-              <Linkedin className="h-6 w-6" />
+              <LinkedInLogoIcon className="h-6 w-6" />
             </a>
           </div>
         </div>
