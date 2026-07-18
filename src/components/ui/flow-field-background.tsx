@@ -81,13 +81,13 @@ export default function NeuralBackground({
         const dx = mouse.x - this.x;
         const dy = mouse.y - this.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
-        const interactionRadius = 150;
+        const interactionRadius = 200;
 
         if (distance < interactionRadius) {
           const force = (interactionRadius - distance) / interactionRadius;
-          // Push away
-          this.vx -= dx * force * 0.05;
-          this.vy -= dy * force * 0.05;
+          // Push away with stronger force
+          this.vx -= dx * force * 0.3;
+          this.vy -= dy * force * 0.3;
         }
 
         // 4. Apply Velocity & Friction
