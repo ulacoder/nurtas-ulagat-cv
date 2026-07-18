@@ -3,7 +3,6 @@
 import React from "react";
 import NeuralBackground from "@/components/ui/flow-field-background";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { FileText } from "lucide-react";
 
 export default function Home() {
   return (
@@ -28,14 +27,13 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Resume button */}
+          {/* Resume link */}
           <div className="pt-6">
             <a
               href="/resume.pdf"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-black font-semibold rounded-lg shadow-lg hover:bg-gray-200 transition-colors duration-300"
+              className="text-xl font-semibold text-white hover:text-gray-300 transition-colors underline underline-offset-4"
             >
-              <FileText className="h-5 w-5" />
-              View Resume
+              Resume
             </a>
           </div>
 
