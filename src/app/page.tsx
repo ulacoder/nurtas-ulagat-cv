@@ -41,20 +41,20 @@ export default function Home() {
 
           {/* Contact section */}
           <div className="pt-8 space-y-4">
-            <h2 className="text-lg font-semibold text-gray-400">Contact Me</h2>
-            <div className="flex items-center justify-center gap-2 text-gray-300">
+            <h2 className="text-xl font-bold text-white">Contact Me</h2>
+            <div className="flex items-center justify-center gap-2 text-white text-lg font-semibold">
               <a
                 href="https://t.me/anntts"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-white transition-colors"
+                className="hover:text-gray-300 transition-colors"
               >
                 @anntts
               </a>
               <span>•</span>
               <a
                 href="mailto:nurtasulagat@gmail.com"
-                className="hover:text-white transition-colors"
+                className="hover:text-gray-300 transition-colors"
               >
                 nurtasulagat@gmail.com
               </a>
