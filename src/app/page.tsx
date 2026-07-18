@@ -42,12 +42,12 @@ export default function Home() {
             <h2 className="font-['Geist',sans-serif] font-semibold text-xl text-white">Contact Me</h2>
             <div className="flex items-center justify-center gap-2 text-white text-lg font-semibold">
               <a
-                href="https://t.me/anntts"
+                href="https://t.me/ulacoder"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-300 transition-colors"
               >
-                @anntts
+                @ulacoder
               </a>
               <span>•</span>
               <a
