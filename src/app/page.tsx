@@ -16,14 +16,14 @@ export default function Home() {
       />
 
       {/* Content overlay */}
-      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white px-6 -mt-20">
+      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white px-6 -mt-12">
         <div className="max-w-2xl w-full space-y-8 text-center">
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-900 bg-clip-text text-transparent">
-              hi, i'm @ulacoder
+              hi, i'm <span className="font-mono">@</span>ulacoder
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300">
+            <p className="text-2xl md:text-4xl text-gray-200">
               Software &amp; Hardware Engineer
             </p>
           </div>
