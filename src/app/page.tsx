@@ -21,7 +21,7 @@ export default function Home() {
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-900 bg-clip-text text-transparent">
-              hi, i'm <span className="font-['Roboto_Mono',monospace] font-bold">@</span>ulacoder
+              hi, i'm <span className="font-['DejaVu_Sans',sans-serif] font-bold">@</span>ulacoder
             </h1>
             <p className="text-xl md:text-2xl text-gray-200">
               Software &amp; Hardware Engineer
