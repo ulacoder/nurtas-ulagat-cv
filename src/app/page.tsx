@@ -3,7 +3,7 @@
 import React from "react";
 import NeuralBackground from "@/components/ui/flow-field-background";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { Mail, FileText } from "lucide-react";
+import { FileText } from "lucide-react";
 
 export default function Home() {
   return (
@@ -42,13 +42,21 @@ export default function Home() {
           {/* Contact section */}
           <div className="pt-8 space-y-4">
             <h2 className="text-lg font-semibold text-gray-400">Contact Me</h2>
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+            <div className="flex items-center justify-center gap-2 text-gray-300">
               <a
-                href="mailto:your.email@example.com"
-                className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
+                href="https://t.me/anntts"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
               >
-                <Mail className="h-5 w-5" />
-                <span>your.email@example.com</span>
+                @anntts
+              </a>
+              <span>•</span>
+              <a
+                href="mailto:nurtasulagat@gmail.com"
+                className="hover:text-white transition-colors"
+              >
+                nurtasulagat@gmail.com
               </a>
             </div>
           </div>
@@ -65,7 +73,7 @@ export default function Home() {
               <GitHubLogoIcon className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/ulagat-nurtas-395017393/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors backdrop-blur-sm"
