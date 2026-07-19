@@ -19,7 +19,7 @@ export default function Home() {
         <div className="max-w-2xl w-full space-y-8 text-center">
           {/* Main heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-900 bg-clip-text text-transparent whitespace-nowrap">
+            <h1 className="text-4xl md:text-7xl font-bold tracking-tight bg-gradient-to-r from-white to-gray-900 bg-clip-text text-transparent whitespace-nowrap">
               hi, i'm ＠ulacoder
             </h1>
             <p className="text-xl md:text-2xl text-gray-200">
