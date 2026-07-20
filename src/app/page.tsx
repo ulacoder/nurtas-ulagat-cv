@@ -1,3 +1,4 @@
+// Entry point
 "use client";
 
 import React from "react";
