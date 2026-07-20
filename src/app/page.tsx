@@ -23,7 +23,7 @@ export default function Home() {
               hi, i'm ＠ulacoder
             </h1>
             <p className="text-xl md:text-2xl text-gray-200">
-              Software &amp; Hardware Engineer
+              Embedded AI &amp; Robotics
             </p>
           </div>
 
