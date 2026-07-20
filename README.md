@@ -5,7 +5,7 @@ Live Demo: https://nurtas-ulagat-cv.vercel.app/
 
 ## Getting Started
 
-First, run the development server:
+First, start the development server:
 
 ```bash
 npm run dev
